@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Développeur full-stack, habitant à La Teste de Buch!"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="js/app.js"></script>
+    <title>Sébastien Juchet</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">SebJDev</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#sebjdev"
+        aria-controls="navbarsExample05"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="sebjdev">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"
+              >Accueil <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info">À propos de moi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#training">Formations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row block-title" id="home">
+        <div
+          class="col-6 d-flex justify-content-center align-items-center"
+          id="title"
+        >
+          <p class="h1 text-white font-weight-bold">SEBJ Dev</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator my-4"></div>
+
+    <div class="container" id="info">
+      <div class="row pl-2">
+        <div class="col-md-4">
+          <h2><u>À propos de moi!</u></h2>
+        </div>
+      </div>
+      <div class="row pl-2">
+        <div class="col-md-6 my-4">
+          <p>
+            Passionné d'informatique en tout genre depuis des années, à l'âge de
+            34 ans j'ai décidé de faire une formation de développeur web. Durant
+            mon apprentissage j'ai appris les bases des langages tel que :
+          </p>
+          <p>
+            <img class="logo-techno" src="./images/html.png" alt="html5" /> HTML
+            5 <img class="logo-techno" src="./images/css.png" alt="css3" /> CSS
+            3
+          </p>
+          <p>
+            <img
+              class="logo-techno"
+              src="./images/javascript.png"
+              alt="javascript"
+            />Javascript
+            <img class="logo-techno" src="./images/php.png" alt="php" /> PHP
+          </p>
+          <p>
+            <img class="logo-techno" src="./images/sql.png" alt="sql" /> SQL
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator my-4"></div>
+
+    <div class="container-fluid py-4" id="training">
+      <div class="row d-flex justify-content-md-center" id="block-training">
+        <div class="col-8 mt-4">
+          <h2><u>Formations</u></h2>
+        </div>
+        <div class="col-12 col-md-8">
+          <table class="table my-4">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Intitulé</th>
+                <th>Lieu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Octobre 2020</td>
+                <td>Développeur Web Junior</td>
+                <td>A domicile</td>
+              </tr>
+
+              <tr>
+                <td>Mars 2011</td>
+                <td>Agent thermal</td>
+                <td>Greta des Landes</td>
+              </tr>
+
+              <tr>
+                <td>Juillet 2003</td>
+                <td>Bep MSMA</td>
+                <td>CFAI Aquitaine</td>
+              </tr>
+
+              <tr>
+                <td>Mai 2011</td>
+                <td>Prévention et Secours Civiques de niveau 1</td>
+                <td>Croix rouge de Dax</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator my-4"></div>
+
+    <div class="container" id="projects">
+      <div class="row">
+        <div class="col-12">
+          <h2><u>Mes Projets</u></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="mt-3">
+            <span
+              >Premier projet de formation :<a
+                href="http://projet-1.juchet-sebastien.com/"
+                target="_blank"
+              >
+                Webagency</a
+              ></span
+            ><br />
+            <span class="ml-4">- Compétences en HTML5 et CSS3.</span>
+          </p>
+          <p class="mt-3">
+            <span
+              >Deuxième projet de formation :<a
+                href="http://projet-2.juchet-sebastien.com/"
+                target="_blank"
+              >
+                Office du tourisme d'Ireki</a
+              ></span
+            ><br />
+            <span class="ml-4">- Wordpress.</span>
+          </p>
+          <p class="mt-3">
+            <span
+              >Troisième projet de formation :<a
+                href="http://projet-3.juchet-sebastien.com/"
+                target="_blank"
+              >
+                Toulouslib'</a
+              ></span
+            ><br />
+            <span class="ml-4">- Javascript, POO et requète Ajax.</span>
+          </p>
+          <p class="mt-3">
+            <span
+              >Quatrième projet de formation :<a
+                href="http://projet-4.juchet-sebastien.com/"
+                target="_blank"
+              >
+                Blog de Jean Forteroche</a
+              ></span
+            ><br />
+            <span class="ml-4">- PHP, POO, CRUD et SQL.</span>
+          </p>
+          <p class="mt-3">
+            <span
+              >Cinquième et dernier projet de formation :<a
+                href="http://projet-5.juchet-sebastien.com/"
+                target="_blank"
+              >
+                LocaVenteAuto</a
+              ></span
+            ><br />
+            <span class="ml-4"
+              >-Tous les langages appris lors de la formation plus Symfony 5
+              (choix personnel).</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator my-4"></div>
+
+    <div class="container" id="contact">
+      <div class="row">
+        <div class="col-12">
+          <h2><u>Me contacter</u></h2>
+        </div>
+        <div class="col-12 col-md-6">
+          <p><u>Prénom :</u> Sébastien</p>
+          <p><u>Nom :</u> JUCHET</p>
+          <p>
+            <u>Lieu de résidence :</u> <br />
+            La Teste de Buch (Gironde)
+          </p>
+          <p>
+            <u>Mon adresse mail : </u><br />
+            <a href="mailto:sebastien.juchet@gmail.com"
+              >sebastien.juchet@gmail.com</a
+            >
+          </p>
+          <p>
+            <u>Mon téléphone : </u><br />
+            06 28 27 23 17
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6 mb-4" id="map"></div>
+      </div>
+    </div>
+
+    <footer class="container-fluid bg-light text-dark">
+      <div class="row d-flex justify-content-between">
+        <div class="col-4 my-4 font-weight-bold text-center">
+          <u>Site crée par :</u> Sébastien Juchet
+        </div>
+        <div class="col-4 my-4 text-center">
+          <a href="mentions_legales.html">Mentions Légales</a>
+        </div>
+        <div class="col-4 my-4 text-center">
+          <a
+            class="ml-4"
+            href="https://www.linkedin.com/in/s%C3%A9bastien-juchet/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a class="ml-4" href="https://github.com/SebastienJuchet"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #343a40;
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+
+.block-title {
+	background: url(../images/coding-desk.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+#title {
+	border: 10px solid white;
+	margin: 25vh 0;
+	height: 40vh;
+	width: auto;
+	margin-left: calc(50% - 25vw);
+}
+
+.separator {
+	height: .3vh;
+	width: 80vw;
+	margin-left: 10vw;
+	background-color: #ffffff;
+}
+
+.logo-techno {
+	width: 4vw;
+}
+
+#block-training {
+	background: url(../images/window-computer.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+th, td{
+	color: rgb(0, 217, 255);
+	background-color: rgba(0, 0, 0, 0.363);
+}
+
+#map {
+	width: 400px;
+	height: 300px;
+}
+
+.fab {
+	font-size: 1.5rem;
+}
